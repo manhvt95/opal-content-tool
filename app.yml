@@ -1,0 +1,14 @@
+meta:
+  app_id: content_intelligence_tool
+  display_name: Content Intelligence Tool
+  vendor: your_vendor_name   # replace with output of `ocp accounts whoami`
+  version: 0.0.1
+  summary: Analyzes content quality and generates SEO metadata for Opal agents.
+  support_url: https://your-support-url.com
+  contact_email: your@email.com
+
+functions:
+  opal_tool:
+    entry_point: OpalToolFunction
+    description: Content Intelligence Tool — content scoring and SEO meta generation
+    opal_tool: true
